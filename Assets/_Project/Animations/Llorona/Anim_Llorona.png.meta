@@ -1,0 +1,1822 @@
+fileFormatVersion: 2
+guid: aa333207a862c1b4fa57d2caa6000061
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9180712389597213988
+    second: Anim_Llorona_0
+  - first:
+      213: -6911511667291098579
+    second: Anim_Llorona_1
+  - first:
+      213: -7311782595438353257
+    second: Anim_Llorona_2
+  - first:
+      213: 1556673245231908306
+    second: Anim_Llorona_3
+  - first:
+      213: -9182248463566632194
+    second: Anim_Llorona_4
+  - first:
+      213: -6602408081316266816
+    second: Anim_Llorona_5
+  - first:
+      213: -4376090963200486504
+    second: Anim_Llorona_6
+  - first:
+      213: -4176511938932279431
+    second: Anim_Llorona_7
+  - first:
+      213: 7285401746931384922
+    second: Anim_Llorona_8
+  - first:
+      213: -8058147164057498662
+    second: Anim_Llorona_9
+  - first:
+      213: -3080699399191155795
+    second: Anim_Llorona_10
+  - first:
+      213: 4993236528708333381
+    second: Anim_Llorona_11
+  - first:
+      213: -6468004024700160092
+    second: Anim_Llorona_12
+  - first:
+      213: 2485586975258523067
+    second: Anim_Llorona_13
+  - first:
+      213: 4778516881618359830
+    second: Anim_Llorona_14
+  - first:
+      213: -7457595294252428999
+    second: Anim_Llorona_15
+  - first:
+      213: -5528192785339698720
+    second: Anim_Llorona_16
+  - first:
+      213: 5412253295289626741
+    second: Anim_Llorona_17
+  - first:
+      213: 362565797297544276
+    second: Anim_Llorona_18
+  - first:
+      213: -8335571933425805046
+    second: Anim_Llorona_19
+  - first:
+      213: 1691881111421247569
+    second: Anim_Llorona_20
+  - first:
+      213: -4247371524018173295
+    second: Anim_Llorona_21
+  - first:
+      213: 5736879359607079622
+    second: Anim_Llorona_22
+  - first:
+      213: -2207854443888311273
+    second: Anim_Llorona_23
+  - first:
+      213: 5500613368654486885
+    second: Anim_Llorona_24
+  - first:
+      213: -8719186698208025971
+    second: Anim_Llorona_25
+  - first:
+      213: -5672710243450546000
+    second: Anim_Llorona_26
+  - first:
+      213: 5865923931295173931
+    second: Anim_Llorona_27
+  - first:
+      213: -4483149625229651537
+    second: Anim_Llorona_28
+  - first:
+      213: -4775386231429745337
+    second: Anim_Llorona_29
+  - first:
+      213: -2030827479716258097
+    second: Anim_Llorona_30
+  - first:
+      213: -5487461358101139085
+    second: Anim_Llorona_31
+  - first:
+      213: -7994179113262031775
+    second: Anim_Llorona_32
+  - first:
+      213: 4557658367076605108
+    second: Anim_Llorona_33
+  - first:
+      213: -474665248846197257
+    second: Anim_Llorona_34
+  - first:
+      213: 3213733556781594222
+    second: Anim_Llorona_35
+  - first:
+      213: -1730157147886178910
+    second: Anim_Llorona_36
+  - first:
+      213: 754873807189241550
+    second: Anim_Llorona_37
+  - first:
+      213: 6438843712951764941
+    second: Anim_Llorona_38
+  - first:
+      213: 8051316945986865021
+    second: Anim_Llorona_39
+  - first:
+      213: 3609212516743116090
+    second: Anim_Llorona_40
+  - first:
+      213: 7814363890081378859
+    second: Anim_Llorona_41
+  - first:
+      213: 7245314611278215876
+    second: Anim_Llorona_42
+  - first:
+      213: 7305194283704679695
+    second: Anim_Llorona_43
+  - first:
+      213: 1637576364655250796
+    second: Anim_Llorona_44
+  - first:
+      213: -7015038236070353930
+    second: Anim_Llorona_45
+  - first:
+      213: 1661166395405302396
+    second: Anim_Llorona_46
+  - first:
+      213: 8955813715764588124
+    second: Anim_Llorona_47
+  - first:
+      213: -4315253116119038263
+    second: Anim_Llorona_48
+  - first:
+      213: 1812895213221660378
+    second: Anim_Llorona_49
+  - first:
+      213: 218439396539246208
+    second: Anim_Llorona_50
+  - first:
+      213: 6821295824447778831
+    second: Anim_Llorona_51
+  - first:
+      213: -1136101051991081800
+    second: Anim_Llorona_52
+  - first:
+      213: -4931865252897553557
+    second: Anim_Llorona_53
+  - first:
+      213: -7774501819313626323
+    second: Anim_Llorona_54
+  - first:
+      213: -9159568957015100608
+    second: Anim_Llorona_55
+  - first:
+      213: 4190556142616371694
+    second: Anim_Llorona_56
+  - first:
+      213: 3391574774835676856
+    second: Anim_Llorona_57
+  - first:
+      213: -4698955654180313859
+    second: Anim_Llorona_58
+  - first:
+      213: -183707645393148466
+    second: Anim_Llorona_59
+  - first:
+      213: 4189213752289127989
+    second: Anim_Llorona_60
+  - first:
+      213: -7143873589723252278
+    second: Anim_Llorona_61
+  - first:
+      213: 3115361524716828254
+    second: Anim_Llorona_62
+  - first:
+      213: 532625586014315959
+    second: Anim_Llorona_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Anim_Llorona_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 719
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdac70129be879080800000000000000
+      internalID: -9180712389597213988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 719
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d227522e1c06510a0800000000000000
+      internalID: -6911511667291098579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 720
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794630c0874578a90800000000000000
+      internalID: -7311782595438353257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d50765a11a6a9510800000000000000
+      internalID: 1556673245231908306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 720
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa0cb90ca9129080800000000000000
+      internalID: -9182248463566632194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 720
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccb9f2c4d88f54a0800000000000000
+      internalID: -6602408081316266816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 655
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89353a954700543c0800000000000000
+      internalID: -4376090963200486504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 655
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97773c7058c0a06c0800000000000000
+      internalID: -4176511938932279431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 656
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a520bd30a42fa1560800000000000000
+      internalID: 7285401746931384922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 656
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb088229d5bb2090800000000000000
+      internalID: -8058147164057498662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 656
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daba37bf7382f35d0800000000000000
+      internalID: -3080699399191155795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 656
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f2a25ea2a8b4540800000000000000
+      internalID: 4993236528708333381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 591
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a733f5cb980d36a0800000000000000
+      internalID: -6468004024700160092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 591
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb53f9e4f249e7220800000000000000
+      internalID: 2485586975258523067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 591
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616d11249c3b05240800000000000000
+      internalID: 4778516881618359830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 591
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9319577879c418890800000000000000
+      internalID: -7457595294252428999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 591
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e133fb83f9e743b0800000000000000
+      internalID: -5528192785339698720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 591
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570fc2c52bf2c1b40800000000000000
+      internalID: 5412253295289626741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 527
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c50a3fba7180500800000000000000
+      internalID: 362565797297544276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 527
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0950748d79125c80800000000000000
+      internalID: -8335571933425805046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 527
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150e47828e4ca7710800000000000000
+      internalID: 1691881111421247569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 527
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a89c93a1e4e05c0800000000000000
+      internalID: -4247371524018173295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 527
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c286acd16d7d9f40800000000000000
+      internalID: 5736879359607079622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_23
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 527
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714054cb4102c51e0800000000000000
+      internalID: -2207854443888311273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 463
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d5a6d17ba165c40800000000000000
+      internalID: 5500613368654486885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 463
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82effae4e93ff680800000000000000
+      internalID: -8719186698208025971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 463
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b81961c61c7641b0800000000000000
+      internalID: -5672710243450546000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 463
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dcf4c8cb2f76150800000000000000
+      internalID: 5865923931295173931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_28
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 463
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1d2492b27a8c1c0800000000000000
+      internalID: -4483149625229651537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_29
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 463
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745b65a068b6abdb0800000000000000
+      internalID: -4775386231429745337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_30
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 463
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce196fba2d01d3e0800000000000000
+      internalID: -2030827479716258097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 399
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371f2b7f7fe98d3b0800000000000000
+      internalID: -5487461358101139085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_32
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 399
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c5b239378fe0190800000000000000
+      internalID: -7994179113262031775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_33
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 399
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc1039232e004f30800000000000000
+      internalID: 4557658367076605108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 399
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdcc479876a969f0800000000000000
+      internalID: -474665248846197257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_35
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 399
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6638be84a9799c20800000000000000
+      internalID: 3213733556781594222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_36
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 399
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad24a2ad3f3df7e0800000000000000
+      internalID: -1730157147886178910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_37
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 399
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecee2c76ab9d97a00800000000000000
+      internalID: 754873807189241550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 335
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc74fb21e3e5b5950800000000000000
+      internalID: 6438843712951764941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_39
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 335
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7741abca160cbf60800000000000000
+      internalID: 8051316945986865021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 335
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35fd5b59af761230800000000000000
+      internalID: 3609212516743116090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_41
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 335
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22b0f54e82327c60800000000000000
+      internalID: 7814363890081378859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_42
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 335
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca7f2b60478c8460800000000000000
+      internalID: 7245314611278215876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_43
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 335
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d7e671f73416560800000000000000
+      internalID: 7305194283704679695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_44
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 335
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d0ad30707d9b610800000000000000
+      internalID: 1637576364655250796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 271
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f36e3d34e395ae90800000000000000
+      internalID: -7015038236070353930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_46
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 271
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7af2fe0906ad0710800000000000000
+      internalID: 1661166395405302396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_47
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 271
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e28b2ef11794c70800000000000000
+      internalID: 8955813715764588124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_48
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 271
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6c3d177242d14c0800000000000000
+      internalID: -4315253116119038263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_49
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 271
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6451f5792b82910800000000000000
+      internalID: 1812895213221660378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 271
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0862cab497d080300800000000000000
+      internalID: 218439396539246208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_51
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 271
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00b01c596c1aae50800000000000000
+      internalID: 6821295824447778831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_52
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 207
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcbf1fcc12cb30f0800000000000000
+      internalID: -1136101051991081800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 208
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6303f0ceae7e8bb0800000000000000
+      internalID: -4931865252897553557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 202
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23ee2259cb6b1490800000000000000
+      internalID: -7774501819313626323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_55
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 143
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0437b65209ca2e080800000000000000
+      internalID: -9159568957015100608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_56
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 144
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1eaf3fb98d72a30800000000000000
+      internalID: 4190556142616371694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_57
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 138
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b68143d94b411f20800000000000000
+      internalID: 3391574774835676856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 79
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4e4498ab4f9ceb0800000000000000
+      internalID: -4698955654180313859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_59
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 79
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec561ddaed6537df0800000000000000
+      internalID: -183707645393148466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_60
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 79
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eef5956b3132a30800000000000000
+      internalID: 4189213752289127989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_61
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9304ce1dcdbdc90800000000000000
+      internalID: -7143873589723252278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 15
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e567aa30dccfb3b20800000000000000
+      internalID: 3115361524716828254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Llorona_63
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 15
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5eaa40624446700800000000000000
+      internalID: 532625586014315959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Anim_Llorona_0: -9180712389597213988
+      Anim_Llorona_1: -6911511667291098579
+      Anim_Llorona_10: -3080699399191155795
+      Anim_Llorona_11: 4993236528708333381
+      Anim_Llorona_12: -6468004024700160092
+      Anim_Llorona_13: 2485586975258523067
+      Anim_Llorona_14: 4778516881618359830
+      Anim_Llorona_15: -7457595294252428999
+      Anim_Llorona_16: -5528192785339698720
+      Anim_Llorona_17: 5412253295289626741
+      Anim_Llorona_18: 362565797297544276
+      Anim_Llorona_19: -8335571933425805046
+      Anim_Llorona_2: -7311782595438353257
+      Anim_Llorona_20: 1691881111421247569
+      Anim_Llorona_21: -4247371524018173295
+      Anim_Llorona_22: 5736879359607079622
+      Anim_Llorona_23: -2207854443888311273
+      Anim_Llorona_24: 5500613368654486885
+      Anim_Llorona_25: -8719186698208025971
+      Anim_Llorona_26: -5672710243450546000
+      Anim_Llorona_27: 5865923931295173931
+      Anim_Llorona_28: -4483149625229651537
+      Anim_Llorona_29: -4775386231429745337
+      Anim_Llorona_3: 1556673245231908306
+      Anim_Llorona_30: -2030827479716258097
+      Anim_Llorona_31: -5487461358101139085
+      Anim_Llorona_32: -7994179113262031775
+      Anim_Llorona_33: 4557658367076605108
+      Anim_Llorona_34: -474665248846197257
+      Anim_Llorona_35: 3213733556781594222
+      Anim_Llorona_36: -1730157147886178910
+      Anim_Llorona_37: 754873807189241550
+      Anim_Llorona_38: 6438843712951764941
+      Anim_Llorona_39: 8051316945986865021
+      Anim_Llorona_4: -9182248463566632194
+      Anim_Llorona_40: 3609212516743116090
+      Anim_Llorona_41: 7814363890081378859
+      Anim_Llorona_42: 7245314611278215876
+      Anim_Llorona_43: 7305194283704679695
+      Anim_Llorona_44: 1637576364655250796
+      Anim_Llorona_45: -7015038236070353930
+      Anim_Llorona_46: 1661166395405302396
+      Anim_Llorona_47: 8955813715764588124
+      Anim_Llorona_48: -4315253116119038263
+      Anim_Llorona_49: 1812895213221660378
+      Anim_Llorona_5: -6602408081316266816
+      Anim_Llorona_50: 218439396539246208
+      Anim_Llorona_51: 6821295824447778831
+      Anim_Llorona_52: -1136101051991081800
+      Anim_Llorona_53: -4931865252897553557
+      Anim_Llorona_54: -7774501819313626323
+      Anim_Llorona_55: -9159568957015100608
+      Anim_Llorona_56: 4190556142616371694
+      Anim_Llorona_57: 3391574774835676856
+      Anim_Llorona_58: -4698955654180313859
+      Anim_Llorona_59: -183707645393148466
+      Anim_Llorona_6: -4376090963200486504
+      Anim_Llorona_60: 4189213752289127989
+      Anim_Llorona_61: -7143873589723252278
+      Anim_Llorona_62: 3115361524716828254
+      Anim_Llorona_63: 532625586014315959
+      Anim_Llorona_7: -4176511938932279431
+      Anim_Llorona_8: 7285401746931384922
+      Anim_Llorona_9: -8058147164057498662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

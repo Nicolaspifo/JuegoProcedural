@@ -1,0 +1,2030 @@
+fileFormatVersion: 2
+guid: 46073563c9fbb4640a39bee9b6176977
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6253937376572508601
+    second: Anim_Hipo_0
+  - first:
+      213: -6567404983625517894
+    second: Anim_Hipo_1
+  - first:
+      213: -8233893724913983821
+    second: Anim_Hipo_2
+  - first:
+      213: -8345358550063527594
+    second: Anim_Hipo_3
+  - first:
+      213: -612410792721762746
+    second: Anim_Hipo_4
+  - first:
+      213: -1814121244403260500
+    second: Anim_Hipo_5
+  - first:
+      213: 7374894604234663142
+    second: Anim_Hipo_6
+  - first:
+      213: 5163784777525470000
+    second: Anim_Hipo_7
+  - first:
+      213: -4680887507168315214
+    second: Anim_Hipo_8
+  - first:
+      213: 8064648057865338404
+    second: Anim_Hipo_9
+  - first:
+      213: -4040010485427396912
+    second: Anim_Hipo_10
+  - first:
+      213: 4130920341402297717
+    second: Anim_Hipo_11
+  - first:
+      213: -6676613187096176036
+    second: Anim_Hipo_12
+  - first:
+      213: 6205759720575926792
+    second: Anim_Hipo_13
+  - first:
+      213: 5440892976347748803
+    second: Anim_Hipo_14
+  - first:
+      213: -8376255760954496449
+    second: Anim_Hipo_15
+  - first:
+      213: 3032313872297191153
+    second: Anim_Hipo_16
+  - first:
+      213: 5370585317818954298
+    second: Anim_Hipo_17
+  - first:
+      213: 4083203700436456038
+    second: Anim_Hipo_18
+  - first:
+      213: 1843300041043534785
+    second: Anim_Hipo_19
+  - first:
+      213: 7306517255871542979
+    second: Anim_Hipo_20
+  - first:
+      213: 8575978882378143159
+    second: Anim_Hipo_21
+  - first:
+      213: -4546625458806061254
+    second: Anim_Hipo_22
+  - first:
+      213: 7286948543411301818
+    second: Anim_Hipo_23
+  - first:
+      213: 4170844758169309192
+    second: Anim_Hipo_24
+  - first:
+      213: 3493856004315935204
+    second: Anim_Hipo_25
+  - first:
+      213: -4900314681710312497
+    second: Anim_Hipo_26
+  - first:
+      213: 5843045699845210468
+    second: Anim_Hipo_27
+  - first:
+      213: -2208774858263017318
+    second: Anim_Hipo_28
+  - first:
+      213: -4838040317034084312
+    second: Anim_Hipo_29
+  - first:
+      213: -1066913631435740971
+    second: Anim_Hipo_30
+  - first:
+      213: 2127911520276048121
+    second: Anim_Hipo_31
+  - first:
+      213: -8269522901746703760
+    second: Anim_Hipo_32
+  - first:
+      213: -1421414655249328899
+    second: Anim_Hipo_33
+  - first:
+      213: -275665850266775241
+    second: Anim_Hipo_34
+  - first:
+      213: 7733030078588628789
+    second: Anim_Hipo_35
+  - first:
+      213: -7468449527157786813
+    second: Anim_Hipo_36
+  - first:
+      213: 5519985972697007350
+    second: Anim_Hipo_37
+  - first:
+      213: -3841390811672851082
+    second: Anim_Hipo_38
+  - first:
+      213: 5677491856976920377
+    second: Anim_Hipo_39
+  - first:
+      213: -1829578101704923622
+    second: Anim_Hipo_40
+  - first:
+      213: -3953172226993667441
+    second: Anim_Hipo_41
+  - first:
+      213: 995355977758373074
+    second: Anim_Hipo_42
+  - first:
+      213: 7681224215791152404
+    second: Anim_Hipo_43
+  - first:
+      213: 5944203799275617300
+    second: Anim_Hipo_44
+  - first:
+      213: -1335279685700854684
+    second: Anim_Hipo_45
+  - first:
+      213: 2545080129757779433
+    second: Anim_Hipo_46
+  - first:
+      213: -4511126137520815724
+    second: Anim_Hipo_47
+  - first:
+      213: 5426786520718591081
+    second: Anim_Hipo_48
+  - first:
+      213: -6019098200351513415
+    second: Anim_Hipo_49
+  - first:
+      213: -1443008724829243867
+    second: Anim_Hipo_50
+  - first:
+      213: 2729110487612275638
+    second: Anim_Hipo_51
+  - first:
+      213: 8403606470203030710
+    second: Anim_Hipo_52
+  - first:
+      213: 8935821128634263624
+    second: Anim_Hipo_53
+  - first:
+      213: -2524215528568258319
+    second: Anim_Hipo_54
+  - first:
+      213: 2116419540993083499
+    second: Anim_Hipo_55
+  - first:
+      213: -8394822821333968289
+    second: Anim_Hipo_56
+  - first:
+      213: -2059157322406245364
+    second: Anim_Hipo_57
+  - first:
+      213: 7760546340836930385
+    second: Anim_Hipo_58
+  - first:
+      213: 4886853106578747745
+    second: Anim_Hipo_59
+  - first:
+      213: 3062102202676283063
+    second: Anim_Hipo_60
+  - first:
+      213: -6192402664821784961
+    second: Anim_Hipo_61
+  - first:
+      213: -2286220047327417992
+    second: Anim_Hipo_62
+  - first:
+      213: -3458610188991064318
+    second: Anim_Hipo_63
+  - first:
+      213: 3329872490590539419
+    second: Anim_Hipo_64
+  - first:
+      213: 8020876882351290672
+    second: Anim_Hipo_65
+  - first:
+      213: -6160995858692523041
+    second: Anim_Hipo_66
+  - first:
+      213: -6847846164588357924
+    second: Anim_Hipo_67
+  - first:
+      213: -8214686146913959926
+    second: Anim_Hipo_68
+  - first:
+      213: -7672572008475001476
+    second: Anim_Hipo_69
+  - first:
+      213: -401280838194687609
+    second: Anim_Hipo_70
+  - first:
+      213: 5402060519748738953
+    second: Anim_Hipo_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Anim_Hipo_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 360
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7467bdd371d8539a0800000000000000
+      internalID: -6253937376572508601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 360
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4fed686f3ebd4a0800000000000000
+      internalID: -6567404983625517894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 360
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be1f2048455bbd80800000000000000
+      internalID: -8233893724913983821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 360
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659c1344d945f2c80800000000000000
+      internalID: -8345358550063527594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 360
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6463433f0a74087f0800000000000000
+      internalID: -612410792721762746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 360
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3aadff652f2d6e0800000000000000
+      internalID: -1814121244403260500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 360
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e42a559193e85660800000000000000
+      internalID: 7374894604234663142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 360
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033a9f075e279a740800000000000000
+      internalID: 5163784777525470000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 328
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b83ba5dc952a0fb0800000000000000
+      internalID: -4680887507168315214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 328
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e7b972ea26bef60800000000000000
+      internalID: 8064648057865338404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 328
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de1f3f4edffee7c0800000000000000
+      internalID: -4040010485427396912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 328
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57528b8f92af35930800000000000000
+      internalID: 4130920341402297717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 328
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a91783ea7e753a0800000000000000
+      internalID: -6676613187096176036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 328
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8020b5a16994f1650800000000000000
+      internalID: 6205759720575926792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 328
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9102cb55fe18b40800000000000000
+      internalID: 5440892976347748803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 328
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aec74c3cf81cb80800000000000000
+      internalID: -8376255760954496449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 296
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f663c5a661f41a20800000000000000
+      internalID: 3032313872297191153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 296
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32f68854e6288a40800000000000000
+      internalID: 5370585317818954298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 296
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662531eb1247aa830800000000000000
+      internalID: 4083203700436456038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 296
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3ecd00f97b49910800000000000000
+      internalID: 1843300041043534785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 296
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c63c7d8bb6f56560800000000000000
+      internalID: 7306517255871542979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 296
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b596652b5ff30770800000000000000
+      internalID: 8575978882378143159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 296
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a370e19fb3427e0c0800000000000000
+      internalID: -4546625458806061254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 296
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abda492a711702560800000000000000
+      internalID: 7286948543411301818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 264
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8005bff9531d1e930800000000000000
+      internalID: 4170844758169309192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 264
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1fd91568bac7030800000000000000
+      internalID: 3493856004315935204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 264
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3860d82c59efbb0800000000000000
+      internalID: -4900314681710312497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 264
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461c5a13b1ba61150800000000000000
+      internalID: 5843045699845210468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 264
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a984b6018fad851e0800000000000000
+      internalID: -2208774858263017318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_29
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 264
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8284a26f6f3dbdcb0800000000000000
+      internalID: -4838040317034084312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 264
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8204874bf8131f0800000000000000
+      internalID: -1066913631435740971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 264
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8e387e04cd78d10800000000000000
+      internalID: 2127911520276048121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 232
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0722e631cb0cc3d80800000000000000
+      internalID: -8269522901746703760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_33
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 232
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4545be6ee164ce0800000000000000
+      internalID: -1421414655249328899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_34
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 232
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7319426ae53ac2cf0800000000000000
+      internalID: -275665850266775241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 232
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fafa792ed315b60800000000000000
+      internalID: 7733030078588628789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 232
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34773de79bcba5890800000000000000
+      internalID: -7468449527157786813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_37
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 232
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f48ebbfefdea9c40800000000000000
+      internalID: 5519985972697007350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 200
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d4acac863a0bac0800000000000000
+      internalID: -3841390811672851082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 200
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f384663c08ace40800000000000000
+      internalID: 5677491856976920377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 200
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a166b07f8680c96e0800000000000000
+      internalID: -1829578101704923622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 200
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f824a1aedc28329c0800000000000000
+      internalID: -3953172226993667441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 200
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d47957fcf630dd00800000000000000
+      internalID: 995355977758373074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_43
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 200
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d2c563ab0399a60800000000000000
+      internalID: 7681224215791152404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_44
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 168
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cb9589cdd0e7250800000000000000
+      internalID: 5944203799275617300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 168
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c51025332287de0800000000000000
+      internalID: -1335279685700854684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_46
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 168
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e51e13c4e0f15320800000000000000
+      internalID: 2545080129757779433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_47
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 168
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491871ccda24561c0800000000000000
+      internalID: -4511126137520815724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_48
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 168
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9644f479691df4b40800000000000000
+      internalID: 5426786520718591081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_49
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4eadbc31ed77ca0800000000000000
+      internalID: -6019098200351513415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 136
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52673ccc53769fbe0800000000000000
+      internalID: -1443008724829243867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_51
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 136
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb3cee678fbfd520800000000000000
+      internalID: 2729110487612275638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_52
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 136
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc30a87f8b9f9470800000000000000
+      internalID: 8403606470203030710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_53
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 136
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848eca4f8f9620c70800000000000000
+      internalID: 8935821128634263624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_54
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 136
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f00a23c95f28fcd0800000000000000
+      internalID: -2524215528568258319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_55
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 136
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b688698fb580f5d10800000000000000
+      internalID: 2116419540993083499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5adb062f199f7b80800000000000000
+      internalID: -8394822821333968289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_57
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 104
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cc45d33576c63e0800000000000000
+      internalID: -2059157322406245364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_58
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 104
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153fa84a7cff2bb60800000000000000
+      internalID: 7760546340836930385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_59
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 104
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161f32f320791d340800000000000000
+      internalID: 4886853106578747745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 72
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b60678cab5ce7a20800000000000000
+      internalID: 3062102202676283063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e7d19c59a201aa0800000000000000
+      internalID: -6192402664821784961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_62
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 72
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8792ca8daf6b540e0800000000000000
+      internalID: -2286220047327417992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 72
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20714ac8b5c8000d0800000000000000
+      internalID: -3458610188991064318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e8ef44365163e20800000000000000
+      internalID: 3329872490590539419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039f0bf2701ef4f60800000000000000
+      internalID: 8020876882351290672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_66
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 40
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbbafba8eebf7aa0800000000000000
+      internalID: -6160995858692523041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_67
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 40
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6903bd13097f0a0800000000000000
+      internalID: -6847846164588357924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_68
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a000fdff8729ffd80800000000000000
+      internalID: -8214686146913959926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_69
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 8
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dfd39c86c858590800000000000000
+      internalID: -7672572008475001476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_70
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 8
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7811c38243d5e6af0800000000000000
+      internalID: -401280838194687609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Hipo_71
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 8
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f19cedb69f7fa40800000000000000
+      internalID: 5402060519748738953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Anim_Hipo_0: -6253937376572508601
+      Anim_Hipo_1: -6567404983625517894
+      Anim_Hipo_10: -4040010485427396912
+      Anim_Hipo_11: 4130920341402297717
+      Anim_Hipo_12: -6676613187096176036
+      Anim_Hipo_13: 6205759720575926792
+      Anim_Hipo_14: 5440892976347748803
+      Anim_Hipo_15: -8376255760954496449
+      Anim_Hipo_16: 3032313872297191153
+      Anim_Hipo_17: 5370585317818954298
+      Anim_Hipo_18: 4083203700436456038
+      Anim_Hipo_19: 1843300041043534785
+      Anim_Hipo_2: -8233893724913983821
+      Anim_Hipo_20: 7306517255871542979
+      Anim_Hipo_21: 8575978882378143159
+      Anim_Hipo_22: -4546625458806061254
+      Anim_Hipo_23: 7286948543411301818
+      Anim_Hipo_24: 4170844758169309192
+      Anim_Hipo_25: 3493856004315935204
+      Anim_Hipo_26: -4900314681710312497
+      Anim_Hipo_27: 5843045699845210468
+      Anim_Hipo_28: -2208774858263017318
+      Anim_Hipo_29: -4838040317034084312
+      Anim_Hipo_3: -8345358550063527594
+      Anim_Hipo_30: -1066913631435740971
+      Anim_Hipo_31: 2127911520276048121
+      Anim_Hipo_32: -8269522901746703760
+      Anim_Hipo_33: -1421414655249328899
+      Anim_Hipo_34: -275665850266775241
+      Anim_Hipo_35: 7733030078588628789
+      Anim_Hipo_36: -7468449527157786813
+      Anim_Hipo_37: 5519985972697007350
+      Anim_Hipo_38: -3841390811672851082
+      Anim_Hipo_39: 5677491856976920377
+      Anim_Hipo_4: -612410792721762746
+      Anim_Hipo_40: -1829578101704923622
+      Anim_Hipo_41: -3953172226993667441
+      Anim_Hipo_42: 995355977758373074
+      Anim_Hipo_43: 7681224215791152404
+      Anim_Hipo_44: 5944203799275617300
+      Anim_Hipo_45: -1335279685700854684
+      Anim_Hipo_46: 2545080129757779433
+      Anim_Hipo_47: -4511126137520815724
+      Anim_Hipo_48: 5426786520718591081
+      Anim_Hipo_49: -6019098200351513415
+      Anim_Hipo_5: -1814121244403260500
+      Anim_Hipo_50: -1443008724829243867
+      Anim_Hipo_51: 2729110487612275638
+      Anim_Hipo_52: 8403606470203030710
+      Anim_Hipo_53: 8935821128634263624
+      Anim_Hipo_54: -2524215528568258319
+      Anim_Hipo_55: 2116419540993083499
+      Anim_Hipo_56: -8394822821333968289
+      Anim_Hipo_57: -2059157322406245364
+      Anim_Hipo_58: 7760546340836930385
+      Anim_Hipo_59: 4886853106578747745
+      Anim_Hipo_6: 7374894604234663142
+      Anim_Hipo_60: 3062102202676283063
+      Anim_Hipo_61: -6192402664821784961
+      Anim_Hipo_62: -2286220047327417992
+      Anim_Hipo_63: -3458610188991064318
+      Anim_Hipo_64: 3329872490590539419
+      Anim_Hipo_65: 8020876882351290672
+      Anim_Hipo_66: -6160995858692523041
+      Anim_Hipo_67: -6847846164588357924
+      Anim_Hipo_68: -8214686146913959926
+      Anim_Hipo_69: -7672572008475001476
+      Anim_Hipo_7: 5163784777525470000
+      Anim_Hipo_70: -401280838194687609
+      Anim_Hipo_71: 5402060519748738953
+      Anim_Hipo_8: -4680887507168315214
+      Anim_Hipo_9: 8064648057865338404
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
