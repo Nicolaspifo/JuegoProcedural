@@ -71,6 +71,21 @@ public class NightTimer : MonoBehaviour
         if ((roundReached && fieldClear) || Remaining <= 0f) SpawnBoss();
     }
 
+    /// <summary>Nivel de jefe: ronda en la que aparece y tiempo de respaldo. Lo llama LevelRuntime.</summary>
+    public void ConfigureForLevel(int round, float fallbackSeconds)
+    {
+        bossRound = Mathf.Max(2, round);
+        duration = Mathf.Max(30f, fallbackSeconds);
+        Remaining = duration;
+    }
+
+    /// <summary>Nivel sin jefe: se apaga el temporizador (y su texto) para que La Llorona no aparezca.</summary>
+    public void DisableForLevel()
+    {
+        if (label != null) label.text = "";
+        enabled = false;
+    }
+
     [ContextMenu("Probar: aparecer jefe ahora")]
     void SpawnBoss()
     {

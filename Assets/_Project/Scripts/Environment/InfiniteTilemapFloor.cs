@@ -11,7 +11,6 @@ public class InfiniteTilemapFloor : MonoBehaviour
     [Header("Tiles del suelo")]
     [SerializeField] private TileBase[] tiles;
 
-    [Header("Probabilidades (%)")]
     [Header("Generacion de biomas")]
 
     [SerializeField] private float landScale = 0.009f;
@@ -63,6 +62,24 @@ public class InfiniteTilemapFloor : MonoBehaviour
             cam = Camera.main;
 
         grid = tilemap.GetComponentInParent<Grid>();
+    }
+
+    /// <summary>
+    /// Aplica el terreno procedural del nivel (semilla + parametros del bioma) y fuerza a regenerar el suelo.
+    /// Lo llama LevelRuntime al empezar cada nivel.
+    /// </summary>
+    public void Configure(BiomeSettings biome, int newSeed)
+    {
+        seed = newSeed;
+        if (biome != null)
+        {
+            waterLevel = biome.waterLevel;
+            beachWidth = biome.beachWidth;
+            swampThreshold = biome.swampThreshold;
+            rockThreshold = biome.rockThreshold;
+            landScale = biome.landScale;
+        }
+        lastCenter = new Vector3Int(int.MinValue, int.MinValue, 0);
     }
 
     private void LateUpdate()

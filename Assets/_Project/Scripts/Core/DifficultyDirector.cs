@@ -200,5 +200,12 @@ public class DifficultyDirector : MonoBehaviour
             DifficultyScale.Damage = last.damage + extraRounds * endlessDamageGrowthPerRound;
             DifficultyScale.Speed = last.speed + extraRounds * endlessSpeedGrowthPerRound;
         }
+
+        // Dificultad del nivel actual (LevelRuntime): multiplica encima de la curva. Sin nivel valen 1.
+        SpawnInterval = Mathf.Max(0.1f, SpawnInterval / Mathf.Max(0.1f, LevelModifiers.SpawnRate));
+        MaxAlive = Mathf.Max(1, Mathf.RoundToInt(MaxAlive * LevelModifiers.MaxAlive));
+        DifficultyScale.Hp *= LevelModifiers.Hp;
+        DifficultyScale.Damage *= LevelModifiers.Damage;
+        DifficultyScale.Speed *= LevelModifiers.Speed;
     }
 }
