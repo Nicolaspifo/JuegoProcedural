@@ -17,11 +17,18 @@ Construido en **Unity 6 (URP 2D)** para un game jam.
 - **Sobrevive las rondas**: cada ronda exige una cuota de kills antes de endurecerse (más enemigos, más rápido, más daño).
 - **Sube de nivel** y elige cartas de mejora entre especies de la fauna local, cada una con su propio efecto.
 - **Llega al jefe**: cuando el campo queda limpio, aparece **La Llorona** con 4 fases, cantos que aturden y hacen daño en área, y una embestida que se vuelve más larga y letal en cada etapa.
-- **Gánale y sigue**: tras la victoria se puede entrar en **modo infinito**, donde la dificultad sigue escalando sin techo.
+- **Completa la meta del nivel** para desbloquear el siguiente y sumar puntos al ranking.
 
-**Controles:** se puede jugar con **teclado + mouse** o con **mando**.
+**Controles:** **teclado + mouse**, **mando** o **pantalla táctil**. En celular aparece un joystick virtual para moverse y un botón de pausa; el machete ataca solo.
 
-> 📱 En celular se recomienda usar un **mando** conectado: el juego todavía no tiene un HUD táctil, así que sin mando no hay forma de moverte ni atacar en pantalla.
+## 🗺️ Niveles y cuenta
+
+- **10 niveles** que se desbloquean en orden. Cada uno tiene su meta: matar una cantidad de enemigos, sobrevivir un tiempo o vencer a La Llorona (niveles 5 y 10).
+- **Terreno procedural:** cada nivel tiene su bioma (río, llanura, pantano, páramo, selva) y el mapa se genera con una semilla distinta en cada intento.
+- **Cuenta de jugador:** registro e inicio de sesión con Firebase Authentication. El progreso, los puntajes y los niveles desbloqueados se guardan en Cloud Firestore y se recuperan al volver a entrar.
+- **Ranking general** por puntaje total.
+
+Detalles técnicos y configuración de Firebase en [`Documentacion/Backend.md`](Documentacion/Backend.md). Diseño del juego en [`Documentacion/DocumentoDiseno.md`](Documentacion/DocumentoDiseno.md).
 
 ## 🧟 Bestiario
 
@@ -48,7 +55,7 @@ Además, el pool de relleno siempre tiene disponible <img src="Assets/_Project/U
 
 ## 🏆 Puntaje
 
-Se premia, en este orden: llegar rápido al jefe, recibir poco daño, matar al jefe rápido y la agresividad (kills). El resultado (victoria o derrota) se muestra al final con puntaje y tiempo total de la partida.
+Cada nivel da puntos por enemigos eliminados y, si se gana, bonos por victoria, rapidez y vida restante, con un multiplicador que crece con el nivel. De cada nivel cuenta el mejor intento, y la suma de los diez es el puntaje del ranking.
 
 ---
 
@@ -57,6 +64,7 @@ Se premia, en este orden: llegar rápido al jefe, recibir poco daño, matar al j
 - **Unity 6** (`6000.6.0f1`) con **URP 2D**
 - **Input System** (teclado/mouse + gamepad)
 - Física 2D (`Rigidbody2D`)
+- **Firebase** (Authentication + Cloud Firestore) por API REST
 - Arquitectura por composición y eventos: componentes pequeños (`Health`, `EnemyChase`, `EnemyContactDamage`...) desacoplados por un bus de eventos (`GameEvents`) y `ScriptableObject`s para datos y mejoras
 
 ## 📥 Descargas

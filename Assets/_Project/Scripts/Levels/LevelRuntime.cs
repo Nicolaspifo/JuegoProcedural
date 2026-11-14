@@ -133,6 +133,9 @@ public class LevelRuntime : MonoBehaviour
             foreach (var g in FindObjectsByType<GameOverFlow>(FindObjectsInactive.Include)) g.enabled = false;
         }
 
+        // Controles tactiles (solo en celular).
+        TouchControls.CreateIfNeeded();
+
         UpdateGoalProgress();
         Debug.Log($"[Nivel {Definition.number}] {Definition.name} | meta: {Definition.GoalText} | bioma {Biome.theme} semilla {Seed} " +
                   $"(agua {Biome.waterLevel:0.00}, pantano {Biome.swampThreshold:0.00}, roca {Biome.rockThreshold:0.00}, escala {Biome.landScale:0.000})");

@@ -85,3 +85,6 @@ $RECYCLE.BIN/
 # Salidas de depuracion de los builds (Burst / IL2CPP)
 *_BurstDebugInformation_DoNotShip/
 *_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Salida de build (no va en el repo)
+/Data/
