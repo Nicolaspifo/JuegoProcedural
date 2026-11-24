@@ -9,6 +9,21 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/Main/MenuPrincipal.unity
     guid: 8084338001308e34ca1d46d9d0d78765
   - enabled: 1
+    path: Assets/_Project/Scenes/Main/Inicio Secion.unity
+    guid: be10ca2f2b2c1634e9f40e8acd0694d3
+  - enabled: 1
+    path: Assets/_Project/Scenes/Main/Crear cuenta.unity
+    guid: dd9a74f0c6a5ccd498e65796262beeef
+  - enabled: 1
+    path: Assets/_Project/Scenes/Main/Niveles.unity
+    guid: 802c9fe72abd1774e9077495a38700d9
+  - enabled: 1
+    path: Assets/_Project/Scenes/Main/Ranking.unity
+    guid: e108d8c2c800cc74e8eec62955290937
+  - enabled: 1
+    path: Assets/_Project/Scenes/Main/Instrucciones.unity
+    guid: 41f7976dc7e7a404bb8cabce58201658
+  - enabled: 1
     path: Assets/_Project/Scenes/Main/Principal.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:

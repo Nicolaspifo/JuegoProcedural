@@ -179,3 +179,21 @@ Mientras no exista la pantalla de resultado final, `LevelRuntime` muestra una de
 | "La base de datos Firestore no está creada" | Falta el paso 3 |
 | "Sin permiso para esa operación" | No se publicaron las reglas (paso 4), o el nombre tiene menos de 3 o más de 16 caracteres |
 | "Sin conexión" | Sin internet. En Android, revisar *Player Settings → Internet Access = Require* |
+
+## 9. Pantallas conectadas
+
+Las escenas que diseñó el equipo se conectan por código: al cargar cada escena, `ScreenRouter` le agrega su controlador, y este busca los objetos **por nombre**. Si se renombra un botón en Unity, hay que cambiar el nombre en el script correspondiente.
+
+| Escena | Script | Objetos que usa |
+|---|---|---|
+| `MenuPrincipal` (inicio) | `MainMenuScreen` | `PlayButton` (Jugar), `PlayButton (1)` (Instrucciones), `Salir`. Crea los botones Ranking y Cerrar sesión y el panel del jugador (nombre, puntaje total, progreso). Al abrir recupera la sesión guardada. |
+| `Inicio Secion` | `LoginScreen` | `Datos` (campos de correo y contraseña encima de las cajas dibujadas), `Entrar`, `Crear cuenta`, `Volver`. Agrega "¿Olvidaste tu contraseña?" y el botón Ver contraseña. |
+| `Crear cuenta` | `RegisterScreen` | `Datos` (correo, contraseña y nombre), `Registrarme`, `Ya tengo cuenta`. |
+| `Niveles` | `LevelSelectScreen` | `N1`…`N10` (bloqueado con calavera, disponible o completado en dorado), `Jugar nivel seleccionado`, `Instrucciones`, `Volver`. Muestra la meta y el récord del nivel elegido. |
+| `Ranking` | `RankingScreen` | Columnas `Titulo (2)`, `Titulo (3)` y `Titulo (4)` (top 10), `Titulo (5)` ("Tu posición"), `Entrar` (Volver) y `PlayButton` (Actualizar). |
+| `Instrucciones` | `InstructionsScreen` | Se arma por código mientras la escena siga vacía. Si se diseña con un botón `Volver`, se usa ese diseño. |
+| `Principal` (juego) | `LevelHudScreen` | `Temporizador` (tiempo) y `Temporizador (1)` (enemigos). Agrega el nombre del nivel, la meta con barra de avance y la pantalla de resultado. |
+
+Los avisos (`UIAviso`) usan las imágenes del diseño (Cargando, Error, Sin conexión, Éxito y Sincronizar), copiadas a `Resources/UI/` junto con las fuentes y la tabla de madera para poder usarlas en cualquier escena.
+
+**Orden del build:** `MenuPrincipal`, `Inicio Secion`, `Crear cuenta`, `Niveles`, `Ranking`, `Instrucciones` y `Principal`.
