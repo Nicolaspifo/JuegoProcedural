@@ -102,6 +102,7 @@ public class LevelHudScreen : MonoBehaviour
         if (r.isNewRecord && r.previousBest > 0) text += $"¡Nuevo récord! (antes {UIKit.Points(r.previousBest)})\n";
         if (r.unlockedLevel > 0) text += $"¡Nivel {r.unlockedLevel} desbloqueado!\n";
         text += $"Puntaje total: {UIKit.Points(r.newTotalScore)}" + (r.scoreGained > 0 ? $" (+{UIKit.Points(r.scoreGained)})" : "");
+        if (GuestSession.IsActive) text += "\n<size=80%>Modo invitado: inicia sesión para guardar tu progreso y entrar al ranking.</size>";
         saveStatus.text = text;
         retrySaveButton.gameObject.SetActive(false);
         nextButton.gameObject.SetActive(r.won && LevelSession.HasNextLevel);

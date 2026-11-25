@@ -112,6 +112,54 @@ public static class UIKit
         return copy;
     }
 
+    /// <summary>
+    /// Quita la deteccion de clics a las imagenes y textos decorativos (fondos, tablas, titulos) para que no tapen
+    /// a los botones que tengan debajo. Conserva los graficos de botones, campos de texto, scrolls y demas
+    /// controles (todo lo que tenga un componente que recibe eventos en el mismo objeto o en un padre).
+    /// </summary>
+    public static void DisableDecorativeRaycasts(Transform root)
+    {
+        foreach (Graphic g in root.GetComponentsInChildren<Graphic>(true))
+        {
+            if (!g.raycastTarget) continue;
+            if (g.GetComponentInParent<Selectable>(true) != null) continue;
+            if (g.GetComponentInParent<ScrollRect>(true) != null) continue;
+            if (g.GetComponent<UnityEngine.EventSystems.IEventSystemHandler>() != null) continue;
+            g.raycastTarget = false;
+        }
+    }
+
+    public static readonly Color ButtonYellow = new Color(1f, 1f, 0.12f, 1f);
+
+    /// <summary>
+    /// Le pone a un boton la misma madera que otro boton del diseno (o Boton.png si no hay modelo), tenida del
+    /// color indicado, y cambia el color de su texto.
+    /// </summary>
+    public static void PaintButton(Button button, Button template, Color tint, Color labelColor)
+    {
+        if (button == null) return;
+        Image img = button.targetGraphic as Image;
+        if (img == null) img = button.GetComponent<Image>();
+        if (img != null)
+        {
+            Image model = template != null ? template.targetGraphic as Image : null;
+            if (model != null && model.sprite != null)
+            {
+                img.sprite = model.sprite;
+                img.type = model.type;
+                img.preserveAspect = model.preserveAspect;
+            }
+            else
+            {
+                img.sprite = LoadSprite(SpriteButton);
+                img.type = Image.Type.Simple;
+            }
+            img.color = tint;
+        }
+        TMP_Text label = button.GetComponentInChildren<TMP_Text>(true);
+        if (label != null) label.color = labelColor;
+    }
+
     /// <summary>Activa/desactiva un boton y lo atenua visualmente.</summary>
     public static void SetInteractable(Button b, bool on)
     {

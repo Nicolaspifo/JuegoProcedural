@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 065c7f720bfe4574a89786a8ddc7e31f, type: 3}
   m_Name: FirebaseSettings
   m_EditorClassIdentifier: 
-  webApiKey: 
-  projectId: 
-  useMock: 1
+  webApiKey: AIzaSyBgYU1J5WXgcJ1i4UzVS0HyMUtGkhQeyi0
+  projectId: apuntademachete-9523
+  useMock: 0
   mockDelay: 0.6
   mockNetworkErrorChance: 0
   requestTimeoutSeconds: 15
-  logRequests: 1
+  logRequests: 0

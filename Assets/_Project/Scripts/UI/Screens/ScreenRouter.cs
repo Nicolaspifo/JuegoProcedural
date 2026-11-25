@@ -43,8 +43,6 @@ public static class ScreenRouter
 
     private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (mode != LoadSceneMode.Single) return;
-
         System.Type controller = null;
         switch (scene.name)
         {
@@ -58,7 +56,13 @@ public static class ScreenRouter
         }
         if (controller == null) return;
 
+        // En el editor la escena puede abrirse de forma aditiva (por ejemplo junto a una escena "Untitled").
+        // Se activa para que los controladores encuentren sus objetos por nombre en ella.
+        if (SceneManager.GetActiveScene() != scene) SceneManager.SetActiveScene(scene);
+
         UIKit.EnsureEventSystem();
-        new GameObject("[Pantalla] " + controller.Name).AddComponent(controller);
+        var go = new GameObject("[Pantalla] " + controller.Name);
+        if (go.scene != scene) SceneManager.MoveGameObjectToScene(go, scene);
+        go.AddComponent(controller);
     }
 }

@@ -28,7 +28,9 @@ public class LoginScreen : AuthScreenBase
         forgotButton.onClick.AddListener(ForgotPassword);
 
         enterButton = UIKit.Bind("Entrar", DoLogin, "Entrar");
-        UIKit.Bind("Crear cuenta", () => ScreenRouter.Go(ScreenRouter.Register), "Crear cuenta");
+        Button createButton = UIKit.Bind("Crear cuenta", () => ScreenRouter.Go(ScreenRouter.Register), "Crear cuenta");
+        // En el diseno este boton no tiene imagen: se pinta con la madera de "Entrar" en amarillo.
+        UIKit.PaintButton(createButton, enterButton, UIKit.ButtonYellow, Color.white);
         UIKit.Bind("Volver", OnBack, "Volver");
 
         email.onSubmit.AddListener(_ => password.ActivateInputField());

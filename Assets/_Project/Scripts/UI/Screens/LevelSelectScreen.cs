@@ -18,7 +18,12 @@ public class LevelSelectScreen : ScreenBase
 
     private void Start()
     {
-        if (!RequireSession()) return;
+        // Con cuenta o como invitado; si no hay ninguno, al login.
+        if (!GuestSession.CanPlay) { ScreenRouter.Go(ScreenRouter.Login); return; }
+
+        // La imagen "Tabla" del diseno cubre casi toda la pantalla y esta dibujada encima de Jugar/Instrucciones/
+        // Volver: las imagenes decorativas no deben recibir clics.
+        UIKit.DisableDecorativeRaycasts(UIKit.MainCanvas().transform);
 
         for (int i = 0; i < LevelCatalog.Count; i++)
         {
@@ -30,26 +35,27 @@ public class LevelSelectScreen : ScreenBase
             levelLabels[i] = b.GetComponentInChildren<TMP_Text>(true);
             if (levelLabels[i] != null) levelLabels[i].text = $"NIVEL {level}";
             UIKit.Bind(b, () => Select(level));
+            FitHitArea(b);
 
             // Calavera encima del boton para los niveles bloqueados.
-            Image lockImg = UIKit.CreateImage(b.transform, "Bloqueado", UIKit.LoadSprite(UIKit.SpriteLock),
-                new Vector2(0.2f, -0.8f), new Vector2(0.8f, 1.8f));
-            lockImg.raycastTarget = false;
-            locks[i] = lockImg.gameObject;
+            locks[i] = CreateLock(b).gameObject;
         }
 
         playButton = UIKit.Bind("Jugar nivel seleccionado", PlaySelected, "Jugar");
         UIKit.Bind("Instrucciones", () => ScreenRouter.Go(ScreenRouter.Instructions), "Instrucciones");
         UIKit.Bind("Volver", OnBack, "Volver");
 
-        // Detalle del nivel elegido, en la columna derecha debajo del titulo.
+        // Columna derecha: el jugador encima del titulo "SELECCIONA UN NIVEL" y el detalle del nivel debajo,
+        // cada uno sobre un fondo oscuro para que se lea sobre la ilustracion.
         Transform canvas = UIKit.MainCanvas().transform;
-        details = UIKit.CreateText(canvas, "DetalleNivel", "", 40f,
-            new Vector2(0.62f, 0.43f), new Vector2(0.98f, 0.76f), TextAlignmentOptions.Center, UIKit.TextCream);
-        userLine = UIKit.CreateText(canvas, "Jugador", "", 30f,
-            new Vector2(0.62f, 0.76f), new Vector2(0.98f, 0.81f), TextAlignmentOptions.Center, UIKit.TextGold);
+        RectTransform userBack = CreateBackdrop(canvas, "FondoJugador", new Vector2(0.64f, 0.855f), new Vector2(0.98f, 0.925f));
+        userLine = UIKit.CreateText(userBack, "Jugador", "", 30f,
+            new Vector2(0.03f, 0.08f), new Vector2(0.97f, 0.92f), TextAlignmentOptions.Center, UIKit.TextGold);
+        RectTransform detailsBack = CreateBackdrop(canvas, "FondoDetalle", new Vector2(0.64f, 0.445f), new Vector2(0.98f, 0.665f));
+        details = UIKit.CreateText(detailsBack, "DetalleNivel", "", 38f,
+            new Vector2(0.04f, 0.05f), new Vector2(0.96f, 0.95f), TextAlignmentOptions.Center, UIKit.TextCream);
 
-        UserProfile user = B.CurrentUser;
+        UserProfile user = GuestSession.CurrentProfile;
         selected = LevelSession.CurrentLevelNumber >= 1 && user != null && user.IsUnlocked(LevelSession.CurrentLevelNumber)
             ? LevelSession.CurrentLevelNumber
             : LevelSession.HighestPlayableLevel;
@@ -59,8 +65,73 @@ public class LevelSelectScreen : ScreenBase
 
     protected override void OnBack() => ScreenRouter.Go(ScreenRouter.Menu);
 
+    private const float LockHeight = 120f;   // alto de la calavera en unidades del canvas (1920x1080)
+
+    /// <summary>
+    /// Calavera de nivel bloqueado. Los botones N1..N10 del diseno tienen escala no uniforme (x 2.47, y 7.35), asi
+    /// que la imagen se crea con la escala inversa (relativa al canvas) para que no se estire, y con tamano fijo.
+    /// </summary>
+    private static Image CreateLock(Button button)
+    {
+        var center = new Vector2(0.5f, 0.5f);
+        Image img = UIKit.CreateImage(button.transform, "Bloqueado", UIKit.LoadSprite(UIKit.SpriteLock), center, center);
+        img.raycastTarget = false;
+        img.preserveAspect = true;
+
+        Vector3 canvasScale = UIKit.MainCanvas().transform.lossyScale;
+        Vector3 buttonScale = button.transform.lossyScale;
+        RectTransform rt = img.rectTransform;
+        rt.localScale = new Vector3(
+            Mathf.Approximately(buttonScale.x, 0f) ? 1f : canvasScale.x / buttonScale.x,
+            Mathf.Approximately(buttonScale.y, 0f) ? 1f : canvasScale.y / buttonScale.y,
+            1f);
+        // Calavera.png es 1920x1080 con la calavera (cuadrada) en el centro.
+        rt.sizeDelta = new Vector2(LockHeight * 1920f / 1080f, LockHeight);
+        rt.anchoredPosition = Vector2.zero;
+        return img;
+    }
+
+    // Area de clic de cada nivel en unidades del canvas: la caja dibujada mide ~210x195 y estan separadas ~220.
+    private static readonly Vector2 LevelHitSize = new Vector2(200f, 185f);
+
+    /// <summary>
+    /// Los botones N1..N10 del diseno miden 394x220 (escala 2.47 x 7.35 sobre 160x30) y se solapan con el vecino:
+    /// al tocar la mitad derecha de un nivel se elegia el siguiente. Se recorta el area de clic con raycastPadding.
+    /// </summary>
+    private static void FitHitArea(Button button)
+    {
+        if (!(button.targetGraphic is Image img)) return;
+        Vector3 canvasScale = UIKit.MainCanvas().transform.lossyScale;
+        Vector3 s = button.transform.lossyScale;
+        if (Mathf.Approximately(s.x, 0f) || Mathf.Approximately(s.y, 0f)) return;
+
+        Rect r = img.rectTransform.rect;   // espacio local del boton
+        float wantW = LevelHitSize.x * canvasScale.x / s.x;
+        float wantH = LevelHitSize.y * canvasScale.y / s.y;
+        float padX = Mathf.Max(0f, (r.width - wantW) * 0.5f);
+        float padY = Mathf.Max(0f, (r.height - wantH) * 0.5f);
+        img.raycastPadding = new Vector4(padX, padY, padX, padY);   // izquierda, abajo, derecha, arriba
+
+        // El texto "NIVEL n" ocupa todo el boton y tambien recibia clics: solo la imagen recortada los recibe.
+        foreach (Graphic g in button.GetComponentsInChildren<Graphic>(true))
+            if (g != img) g.raycastTarget = false;
+    }
+
+    /// <summary>Fondo oscuro semitransparente con borde dorado, para dar contraste a los textos.</summary>
+    private static RectTransform CreateBackdrop(Transform parent, string name, Vector2 anchorMin, Vector2 anchorMax)
+    {
+        Image back = UIKit.CreateImage(parent, name, null, anchorMin, anchorMax, new Color(0.06f, 0.04f, 0.03f, 0.82f));
+        back.preserveAspect = false;
+        back.raycastTarget = false;
+        var outline = back.gameObject.AddComponent<Outline>();
+        outline.effectColor = new Color(UIKit.TextGold.r, UIKit.TextGold.g, UIKit.TextGold.b, 0.55f);
+        outline.effectDistance = new Vector2(3f, -3f);
+        return back.rectTransform;
+    }
+
     private async void Reload()
     {
+        if (!B.IsLoggedIn) return;   // invitado: el progreso es local, no hay nada que descargar
         Busy = true;
         Result<UserProfile> r = await UIKit.WithLoading(B.LoadProfile(), "Cargando progreso...");
         Busy = false;
@@ -89,13 +160,14 @@ public class LevelSelectScreen : ScreenBase
         }
 
         if (user != null)
-            userLine.text = $"{user.displayName} · {UIKit.Points(user.totalScore)} pts · {user.levelsCompleted}/{UserProfile.MaxLevels}";
+            userLine.text = $"{user.displayName} · {UIKit.Points(user.totalScore)} pts · {user.levelsCompleted}/{UserProfile.MaxLevels}" +
+                            (GuestSession.IsActive ? " · sin guardar" : "");
         ShowDetails(user);
     }
 
     private void Select(int level)
     {
-        UserProfile user = B.CurrentUser;
+        UserProfile user = GuestSession.CurrentProfile;
         if (user == null || !user.IsUnlocked(level))
         {
             UIAviso.ShowError($"Nivel {level} bloqueado\nGana el nivel {level - 1} para desbloquearlo.");

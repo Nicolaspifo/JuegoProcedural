@@ -313,9 +313,9 @@ public class LevelRuntime : MonoBehaviour
         Result<LevelResultResponse> r;
         try
         {
-            r = Backend.Service.IsLoggedIn
-                ? await Backend.Service.SubmitLevelResult(request)
-                : Result<LevelResultResponse>.Fail(ResultCode.NoSession, "Inicia sesión para guardar tu puntaje.");
+            if (Backend.Service.IsLoggedIn) r = await Backend.Service.SubmitLevelResult(request);
+            else if (GuestSession.IsActive) r = GuestSession.Submit(request);   // progreso local del invitado
+            else r = Result<LevelResultResponse>.Fail(ResultCode.NoSession, "Inicia sesión para guardar tu puntaje.");
         }
         catch (Exception e)
         {

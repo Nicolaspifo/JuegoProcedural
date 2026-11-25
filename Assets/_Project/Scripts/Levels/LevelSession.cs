@@ -32,11 +32,11 @@ public static class LevelSession
 
     public static LevelDefinition Current => LevelCatalog.Get(Mathf.Clamp(CurrentLevelNumber, 1, LevelCatalog.Count));
 
-    /// <summary>True si el usuario actual tiene desbloqueado ese nivel (sin sesion solo el nivel 1).</summary>
+    /// <summary>True si el jugador actual (cuenta o invitado) tiene desbloqueado ese nivel (sin ninguno, solo el 1).</summary>
     public static bool CanPlay(int level)
     {
         if (level < 1 || level > LevelCatalog.Count) return false;
-        UserProfile user = Backend.Service.CurrentUser;
+        UserProfile user = GuestSession.CurrentProfile;
         return user != null ? user.IsUnlocked(level) : level == 1;
     }
 
@@ -45,7 +45,7 @@ public static class LevelSession
     {
         get
         {
-            UserProfile user = Backend.Service.CurrentUser;
+            UserProfile user = GuestSession.CurrentProfile;
             return user != null ? Mathf.Clamp(user.maxUnlockedLevel, 1, LevelCatalog.Count) : 1;
         }
     }
