@@ -1,0 +1,49 @@
+rules_version = '2';
+
+// Reglas de seguridad de Cloud Firestore para "A Punta de Machete".
+// Copiar y pegar en: Consola de Firebase > Firestore Database > Reglas > Publicar.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    // Perfil valido: tipos correctos y valores dentro de rango.
+    function validProfile(d) {
+      return d.displayName is string
+          && d.displayName.size() >= 3 && d.displayName.size() <= 16
+          && d.totalScore is int && d.totalScore >= 0
+          && d.maxUnlockedLevel is int && d.maxUnlockedLevel >= 1 && d.maxUnlockedLevel <= 10
+          && d.levelsCompleted is int && d.levelsCompleted >= 0 && d.levelsCompleted <= 10
+          && d.gamesPlayed is int && d.gamesPlayed >= 0
+          && d.totalKills is int && d.totalKills >= 0
+          && d.levels is map;
+    }
+
+    // users/{uid}: cualquier usuario logueado puede LEER (lo necesita el ranking),
+    // pero cada uno solo puede ESCRIBIR su propio documento.
+    match /users/{uid} {
+      allow read: if signedIn();
+      allow create: if isOwner(uid) && validProfile(request.resource.data);
+      allow update: if isOwner(uid) && validProfile(request.resource.data)
+                    // el progreso no puede retroceder
+                    && request.resource.data.maxUnlockedLevel >= resource.data.maxUnlockedLevel;
+      allow delete: if false;
+
+      // Historial de partidas: privado de cada usuario, solo se agregan entradas.
+      match /runs/{runId} {
+        allow read: if isOwner(uid);
+        allow create: if isOwner(uid)
+                      && request.resource.data.level is int
+                      && request.resource.data.level >= 1 && request.resource.data.level <= 10
+                      && request.resource.data.score is int && request.resource.data.score >= 0;
+        allow update, delete: if false;
+      }
+    }
+  }
+}

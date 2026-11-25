@@ -20,8 +20,9 @@ public class MainMenu : MonoBehaviour
 
     public void Play()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(gameSceneName);
+        // Continua en el nivel mas alto desbloqueado del usuario (nivel 1 si no hay sesion).
+        LevelSession.GameSceneName = gameSceneName;
+        LevelSession.Play(LevelSession.HighestPlayableLevel);
     }
 
     public void Quit()
